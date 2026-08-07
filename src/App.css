@@ -1,0 +1,48 @@
+body {
+  font-family: Arial;
+  background: rgb(52, 55, 55);
+}
+
+@font-face {
+    font-family: "MaPolice";
+    src: url("./fonts/MaPolice.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: rgb(76, 73, 73);
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px;
+  transition: 0.5s;
+  border: 1px solid rgb(86, 148, 225);
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+}
+
+.id{
+  color: rgb(100, 122, 149);
+}
+
+.titre{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card:hover{
+    box-shadow: 0 5px 10px black;
+}
