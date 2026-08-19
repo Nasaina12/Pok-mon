@@ -4,10 +4,8 @@ body {
 }
 
 @font-face {
-    font-family: "MaPolice";
-    src: url("./fonts/MaPolice.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
+    font-family: "Style";
+    src: url('assets/Nabla-Regular-VariableFont_EDPT,EHLT.ttf');
 }
 
 h1 {
@@ -40,7 +38,7 @@ h1 {
 }
 
 .titre{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:'Style';
 }
 
 .card:hover{
